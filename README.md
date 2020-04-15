@@ -1,7 +1,7 @@
 # GITHUB-SEARCH APPLICATION
 ## Author
 - Hussein Abass Mohamed
-## Setup/Installation Requirements
+## Description
 * This is a great place
 * to list setup instructions
 * in a simple
