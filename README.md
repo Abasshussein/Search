@@ -7,6 +7,7 @@
 - Since its functioning okay we are looking to expand it widely and globally.
 ## Technologies Used
 - This project was generated with Angular CLI version 7.1.4.
+- HTML & CSS (Bootstrap)
 ## setup/installtion Requirement
 - Open Terminal {Ctrl+Alt+T}
 - git clone https://github.com/Abasshussein/Search.git
