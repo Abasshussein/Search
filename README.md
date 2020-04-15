@@ -9,7 +9,7 @@
 ## setup/installtion Requirement
 - Open Terminal {Ctrl+Alt+T}
 - git clone https://github.com/Abasshussein/Search.git
-- cd quote code.
+- cd quote code/atom depending on your chaoice and usage.
 ## Support and contact details
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 ### License
