@@ -9,7 +9,7 @@
 - This project was generated with Angular CLI version 7.1.4.
 - HTML & CSS (Bootstrap)
 ## setup/installtion Requirement
-- Open Terminal {Ctrl+Alt+T}
+- Open Terminal {Ctrl+Alt+T}.
 - git clone https://github.com/Abasshussein/Search.git
 - cd quote code/atom depending on your chaoice and usage.
 ## Further help
