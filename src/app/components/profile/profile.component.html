@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="jumbotron">
+    <form class="search-form" action="index.html" method="post">
+      <div class="form-group">
+        <input class="form-control" placeholder="Search git users with username" type="text" name="username" value="" [(ngModel)]="username" (keyup)="findProfile()">
+      </div>
+    </form>
+  </div>
+  <div *ngIf="profile">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        {{profile.name}} <small>({{profile.login}})</small><br>
+        <span *ngIf="profile.company">Works at {{profile.company | uppercase }}</span><br>
+        {{profile.location | uppercase }}
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-4" id="img">
+            <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Proflie Image">
+          </div>
+          <div class="col-md-4">
+            <ul class="list-group">
+              <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
+              <li class="list-group-item" *ngIf="profile.hireable">Available for hire</li>
+              <li class="list-group-item" *ngIf="profile.blog"><a href="{{profile.blog}}" target="blank">{{profile.blog}}</a></li>
+              <li class="list-group-item" *ngIf="profile.email"><a href="emailto:{{profile.emali}}">{{profile.emali}}</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <p class="fol">
+                <span class="label label-default" id="followers">{{profile.followers}}Followers</span>
+                <span class="label label-primary" id="following">Following{{profile.following}}</span>
+                <span class="label label-success" id="gists">{{profile.public_gists}}Public gists</span>
+                <span class="label label-info" id="repos">{{profile.public_repos}} Public Repos</span>
+              </p>
+              <p><a href="{{profile.html_url}}" target="blank" class="btn btn-success btn-sm">View profile on github</a></p>
+              <div class="panel panel-default">
+                <h3 class="panel-title">Repos</h3>
+              </div>
+              <div class="panel-body" *ngFor="let repo of repos">
+                <div class="rep">
+                  <h4 class="clearfix">
+                    {{repo.name}} <a href="{{repo.html_url}}" class="btn btn-sm btn-warning pull right">View on github</a>
+                  </h4>
+                  <p>{{repo.description}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
