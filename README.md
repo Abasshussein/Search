@@ -2,7 +2,7 @@
 ## Author
 - Hussein Abass Mohamed
 ## Description
-- This application allows one to access github application
+- This application allows one to access github application.
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 ## Technologies Used
