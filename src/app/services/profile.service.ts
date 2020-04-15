@@ -11,7 +11,7 @@ export class ProfileService {
   private clientid = '8028411451a3acb0915829e37778e3ad3f7c1911';
   private clientsecret = '8028411451a3acb0915829e37778e3ad3f7c1911';
   constructor(private http: Http) {
-    console.log("service is good to go!");
+    console.log("service is now ready!");
     this.username = "Abasshussein";
   }
 
