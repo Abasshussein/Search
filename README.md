@@ -13,7 +13,7 @@
 - git clone https://github.com/Abasshussein/Search.git
 - cd quote code/atom depending on your chaoice and usage.
 ## Further help
-- 
+- To get more help on the Angular CLI use ng help or go check out the Angular CLI README
 ## Support and contact details
 - For more info reach me at:
 - +254736623078
