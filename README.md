@@ -2,8 +2,6 @@
 ## Author
 - Hussein Abass Mohamed
 ## Description
-* This is a great place
-* to list setup instructions
 * in a simple
 * easy-to-understand
 * format
